@@ -1,0 +1,175 @@
+* {
+    text-decoration:none ;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+   
+}
+/* logo */
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family:courier ;
+    color: #2D336B;
+}
+
+/* menu */
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #2D336B;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+a.tbl-menu {
+    background: #7886C7;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a.tbl-menu:hover {
+    background: #493D9E;
+    text-decoration: none;
+}
+
+/* section  */
+section {
+    margin: auto;
+    display: flex; 
+    margin-bottom: 50px;
+    order: -1;
+    width: 80%;
+    max-width: 400px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;   
+    margin-left: 20px; 
+    width: 90%;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    color: #2D336B;
+    
+}
+
+h2 {
+    font-family: comic sans ms;
+    font-weight: 800px;
+    font-size: 50px;
+    color: #2D336B;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+
+
+a.tbl-content {
+    background: #493D9E;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a.tbl-content:hover {
+    background: #7886C7;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #2D336B;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column; /* Mengubah tampilan menjadi vertikal */
+        align-items: center; /* Pusatkan kontennya */
+        text-align: center;
+    }
+}
